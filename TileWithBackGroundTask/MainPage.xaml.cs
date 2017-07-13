@@ -25,6 +25,12 @@ namespace TileWithBackGroundTask
         public MainPage()
         {
             this.InitializeComponent();
+            this.Loaded += RegNewsFeedTask;
+        }
+
+        private void RegNewsFeedTask(object sender, RoutedEventArgs e)
+        {
+            //TODO: Register and run rss feed task
         }
     }
 }
